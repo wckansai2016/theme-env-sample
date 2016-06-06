@@ -27,6 +27,19 @@ $ npm run build
 
 
 ## Gulp Tasks
+
+gulpを実行するには、
+
+```
+$ ./node_modules/.bin/gulp hoge
+```
+もしくは、
+
+```
+$(npm bin)/gulp hoge
+```
+等で実行できます。`npm install -g gulp-cli` しなくてもだいじょうぶ！
+
 * `gulp` or `gulp default` : BrowserSync でファイルの監視& `gulp build` を実行。
 * `gulp build` : CSS / JS のビルドを実行。
 * `gulp dist` : `./dist` に配布用のテーマを作成。
