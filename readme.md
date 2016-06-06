@@ -22,7 +22,7 @@ Node.js 5 以上 で動作します。 4系の人はアップデートしてく�
 ```
 $ npm install
 $ vi gulpconfig.js
-$ npm run build
+$ npm run gulp
 ```
 
 
@@ -32,6 +32,11 @@ gulpを実行するには、
 
 ```
 $(npm bin)/gulp hoge
+```
+
+や
+```
+$npm run gulp hoge
 ```
 等で実行できます。`npm install -g gulp-cli` しなくてもだいじょうぶ！
 
