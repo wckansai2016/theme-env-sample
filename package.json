@@ -11,10 +11,6 @@
     "type": "git",
     "url": "git://github.com/wckansai2016/theme-env-sample.git"
   },
-  "scripts": {
-    "build": "gulp",
-    "gulp": "gulp"
-  },
   "engines" : {
     "node" : ">=5.0.0"
   },
@@ -47,7 +43,8 @@
   },
   "scripts": {
     "build": "gulp build",
-    "dist": "gulp dist"
+    "dist": "gulp dist",
+    "gulp": "gulp"
   },
   "babel": {
     "presets": ["es2015"]
