@@ -12,7 +12,8 @@
     "url": "git://github.com/wckansai2016/theme-env-sample.git"
   },
   "scripts": {
-    "build": "gulp"
+    "build": "gulp",
+    "gulp": "gulp"
   },
   "engines" : {
     "node" : ">=5.0.0"
