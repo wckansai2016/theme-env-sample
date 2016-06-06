@@ -31,14 +31,11 @@ $ npm run build
 gulpを実行するには、
 
 ```
-$ ./node_modules/.bin/gulp hoge
-```
-もしくは、
-
-```
 $(npm bin)/gulp hoge
 ```
 等で実行できます。`npm install -g gulp-cli` しなくてもだいじょうぶ！
+
+### Tasks
 
 * `gulp` or `gulp default` : BrowserSync でファイルの監視& `gulp build` を実行。
 * `gulp build` : CSS / JS のビルドを実行。
