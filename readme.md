@@ -22,9 +22,8 @@ Node.js 5 以上 で動作します。 4系の人はアップデートしてく�
 ```
 $ npm install
 $ vi gulpconfig.js
-$ gulp
+$ npm run build
 ```
-Open [localhost:3000](http://localhost:3000) !
 
 
 ## Gulp Tasks
